@@ -83,3 +83,17 @@ where "li" is list item.
 
 	=	DAY 5	Headings	=
 
+6 levels: h1, h2, ..., h6
+in terms of importance
+ 
+
+	=	DAY 6	Blockquotes	=
+
+To quote somebody:
+<blockquote> ... </blockquote>
+
+
+	=	DAY 7	Anchors	=
+
+Allow us to connect one page to another.
+<a> </a>
