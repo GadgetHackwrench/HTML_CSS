@@ -1,0 +1,85 @@
+	=	DAY 1	=
+
+Text editor (notepad, for ex)
+Should be saved as '*.html' to be rendered as a web-page
+the default page is traditionally called 'index'
+
+HTML = structured mark up
+
+1 step - specify a doctype [= what version of mark up language is being used]:
+<!doctype html>
+2 step - specify where html is:
+<html>
+...
+</html>
+3 step - provide a couple of details about a page itself:
++ head section of a page:
+<head></head>
+--- inside the head-section ---
+specify the title of a page:
+<title></title>
+specify the character type:
+<meta charset="utf-8" />
+<tag atribute=value>
+if there's never gonna be a text meant to be placed between the tags, it is common to "self-close" the tag: <meta />
+
++ the body of a page is wrapped into the tag
+<body></body>
+
+
+	=	DAY 2	Formatting	=
+
+It is a good practice when you are creating html pages to explicitly specify what your content is. (Html is "describing content")
+
+Browsers have default styling. That's how they know how much is <h1> element, margins.
+
+(Bold:)
+<h1></h1> = heading level 1
+<p></p> = a paragraph
+<em></em> = emphasis
+<i></i> = italic
+<strong></strong> = traditionally is used to make the text bold
+<b></b>
+
+
+	=	DAY 3	Lists	=
+
+<br> or </br> = is a break
+
+We specify the list by typing "ul" for an unordered list and "ol" for ordered list:
+<ul>
+	<li>...</li>
+	<li>...</li>
+	<li>...</li>
+</ul>
+where "li" is list item.
+
+[sublime] alt + f3 = find and replace
+
+"definition list":
+<dl>
+	<dt>="definition term</dt>
+	<dd>="definition details?.."</dd>
+</dl>
+
+
+	=	DAY 4	Parent-child relationships	=
+
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h1>
+			<span>decendant of "html", "body", "h1"</span>
+		</h1>
+		<p>
+			sibling of "h1"
+			<strong></strong>
+		</p>
+	</body>
+</html>
+
+
+	=	DAY 5	Headings	=
+
