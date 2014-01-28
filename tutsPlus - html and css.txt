@@ -163,3 +163,17 @@ But this approach has some disadvantages. What if I don't want all my links to h
 It is customary to wrap related material within something called a "div". 
 "Div" is a way to position a content; they don't describe the content, they don't style the content.
 div ~ bucket
+
+
+	=	DAY 12	Ids and Classes	=
+
+When we need to apply some style to exact element:
+3 ways (from easy to hardest):
+-1- An identifier
+id="self-describing-name"
+(in css file) #self-describing-name { properties }
+ONLY for specific elements! They are not intended to group elements together.
+-2- Class
+For a group of elements
+(in css file) .self-describing-name { properties }
+-3- :nth-child(number)
