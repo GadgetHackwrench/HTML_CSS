@@ -177,3 +177,11 @@ ONLY for specific elements! They are not intended to group elements together.
 For a group of elements
 (in css file) .self-describing-name { properties }
 -3- :nth-child(number)
+
+
+	=	DAY 13, 14	Assignment	=
+
+
+	=	DAY 15	Floats and a Simple Layout	=
+
+Lets assume I want to create a main content area and a sidebar section with navigation links.
