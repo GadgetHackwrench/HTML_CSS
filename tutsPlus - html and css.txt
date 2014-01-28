@@ -96,4 +96,17 @@ To quote somebody:
 	=	DAY 7	Anchors	=
 
 Allow us to connect one page to another.
-<a> </a>
+<a> </a> - alone will not work. Needs a specific attribute "href".
+<a href="www.some-site.com" target="_blank"> ... </a> - 
+"_blank" = link will be opened in a new tab.
+
+A static site - a website that is not using a db; it's not determining content dynamically; every bit is coded using a simple mark up and we are not using any kind of serverside language.
+
+to go into directory:
+"directoryName/page-name.html"
+to go up a directory:
+"../page-name.html"
+
+
+	=	DAY 8	Your first stylesheet	=
+
