@@ -141,3 +141,25 @@ It is considered a best practice to always divide your images, css, javascript i
 
 Best practice - to provide an alternate text (in case the image is not available or images are turned off)
 alt=""
+
+
+	=	DAY 11	The necessity of divs	=
+
+Css tag 'margins' - allows us to provide some spacing
+Can be placed inside specific css blocks, like:
+a {
+	margins = 50px;
+}
+h1 {
+	margins = 50 px;
+}
+
+OR
+Can be placed inside unioned css block, like:
+a, h1 {
+	margins = 50px;
+}
+But this approach has some disadvantages. What if I don't want all my links to have margins?
+It is customary to wrap related material within something called a "div". 
+"Div" is a way to position a content; they don't describe the content, they don't style the content.
+div ~ bucket
