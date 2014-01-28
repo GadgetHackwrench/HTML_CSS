@@ -110,3 +110,18 @@ to go up a directory:
 
 	=	DAY 8	Your first stylesheet	=
 
+Long time ago...
+attribute called "style" - will work on any of the elements that go within the body
+<'some tag' style="statement"> ... </'some tag'>
+statement is of this kind: name1: value1; name2: value2; ...
+for color-tag there are several possible values:
+the color name itself; rgb(100, 200, 50); or a hex-value #e3e3e3.
+
+There should be separation between styling and marking up, or the code will become very messy shortly.
+It's better to create a stylesheet.
+
+inside css:
+a {
+	#some code...
+}
+means: find all anchor tags (any element that has a name of "a"), then execute anything within the {}
