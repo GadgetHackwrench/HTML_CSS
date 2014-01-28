@@ -125,3 +125,19 @@ a {
 	#some code...
 }
 means: find all anchor tags (any element that has a name of "a"), then execute anything within the {}
+
+
+	=	DAY 9	Clean project stryctures	=
+
+It is considered a best practice to always divide your images, css, javascript into their own folders.
+[ css ]
+[ img ]
+[ js ]
+
+
+	=	DAY 10	Images	=
+
+<img src=""/> tag.
+
+Best practice - to provide an alternate text (in case the image is not available or images are turned off)
+alt=""
