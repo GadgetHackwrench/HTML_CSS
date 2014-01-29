@@ -196,3 +196,33 @@ OR
 There is no dedicated width in float. It's gonna take all available space that it requires.
 
 We may use persentages to declare a width to adjust size, when resizing window.
+
+
+	=	DAY 16	Navigation Lists	=
+
+NavLists allow us to sort things on the website according to  category and tags.
+
+'#' in anchor tag means - 'nothing'
+
+html - semantic elements, what the content is.
+css - visuals
+
+list elements can be displayed in a line:
+li {
+	display: inline;
+}
+they will be displayed in a line as long as possible until the width of the links combined is more then the width of their container.
+
+a {
+	text-decoration: none;
+} - will remove the underlines
+
+padding-right: 10px; - adds some space to the right of the element
+
+visual feedback to the links:
+we will apply the underlining, when the link is hovered.
+
+ul a:hover {
+	text-decoration: underline;
+}
+':hover' - sudo-class
