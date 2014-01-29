@@ -255,3 +255,21 @@ textarea {
 
 'Yes' OR 'No' questions   ->   type="checkbox"
 List of options   ->   type="radio"
+
+
+	=	DAY 18	Image replacement	=
+
+2 ways referencing logo:
+-1-
+<h1><img src="img/nettuts_logo.png" alt="Nettuts+"></h1>
+  </body>
+-2- (more  common way)
+(html)
+<h1>Nettuts+</h1>
+(css)
+h1 {
+	background: url(../img/nettuts_logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 188px;
+	height: 60px;
+}
