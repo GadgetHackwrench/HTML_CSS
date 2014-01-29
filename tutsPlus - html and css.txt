@@ -226,3 +226,32 @@ ul a:hover {
 	text-decoration: underline;
 }
 ':hover' - sudo-class
+
+
+	=	DAY 17	Introduction to Forms	=
+
+Contact/registration forms...
+What are the necessary html elements that we must use?
+
+To display a form wrap it into a <form></form> element.
+Would have 2 attributes minimum:
+action="" - specifies when you click the 'submit' button of your form, where should that data be posted to;
+method="" - describes how the contents of the form (the values of inputs and textareas) are transmitted to the server side language of choice; by default - get.
+<input /> - by default a textbox
+
+Option to enter some feedback:
+<textarea>'Default value'</textarea>
+To specify width and height, 2 ways:
+- 1 - Within a mark up:
+<textarea rows="3" cols="10">...</textarea>
+**********
+**********
+**********
+- 2 - Within a css:
+textarea {
+	width: 300px;
+	height: 400px;
+}
+
+'Yes' OR 'No' questions   ->   type="checkbox"
+List of options   ->   type="radio"
