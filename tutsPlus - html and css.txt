@@ -185,3 +185,14 @@ For a group of elements
 	=	DAY 15	Floats and a Simple Layout	=
 
 Lets assume I want to create a main content area and a sidebar section with navigation links.
+Floats are used to create the effect of columns.
+To create a sidebar:
+1. <div class="sidebar"> ... </div>
+OR
+2. (html5) <aside></aside>
+
+<a href="#">Home</a> - # because we aren't linking to anywhere
+
+There is no dedicated width in float. It's gonna take all available space that it requires.
+
+We may use persentages to declare a width to adjust size, when resizing window.
