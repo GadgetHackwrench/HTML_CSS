@@ -273,3 +273,26 @@ h1 {
 	width: 188px;
 	height: 60px;
 }
+
+
+	=	DAY 19	Typography Basics	=
+
+monospace font - every letter is the same width
+
+cursive - not a specific font, it is any font, installed on the computer, matches the cursive style.
+
+We are not transmitting fonts with the web-site, so having an awesome font doesn't mean the another person will have it.
+
+(css3)
+	text-shadow:
+1. x-offset;
+2. y-offset;
+3. how much blur should be;
+4. what color
+
+text-shadow: 5px 10px 10px red;
+
+The Google font API:
+www.google.com/fonts
+
+Find what you need, select "quick-use", and follow the instructions.
