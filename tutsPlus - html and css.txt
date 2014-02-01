@@ -296,3 +296,13 @@ The Google font API:
 www.google.com/fonts
 
 Find what you need, select "quick-use", and follow the instructions.
+
+
+	=	DAY 20	The difference between relative and absolute positioning	=
+
+position: relative;
+gives the ability to specify top, left, right, bottom values
+like if little people, who stay at a side move it in the specified direction
+
+position: absolute;
+= absolutely position it within its nearest parent
