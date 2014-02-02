@@ -306,3 +306,6 @@ like if little people, who stay at a side move it in the specified direction
 
 position: absolute;
 = absolutely position it within its nearest parent
+
+
+	=	DAY 21	Creating a website fragment	=
